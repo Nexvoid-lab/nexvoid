@@ -1,0 +1,14 @@
+fun disassemble_binary(binary_path)
+    return "asm_code"
+
+fun extract_strings(binary_path)
+    return "strings"
+
+fun analyze_function(binary, function_name)
+    return "analysis"
+
+fun find_vulnerabilities(binary_path)
+    return "vulns"
+
+fun decompile_to_source(binary_path)
+    return "source_code"

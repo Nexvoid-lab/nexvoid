@@ -1,0 +1,47 @@
+fun create_socket()
+    return 1
+
+fun bind_socket(socket, port)
+    return true
+
+fun listen_socket(socket, backlog)
+    return true
+
+fun accept_connection(socket)
+    return 1
+
+fun close_socket(socket)
+    return true
+
+fun send_data(socket, data)
+    return true
+
+fun receive_data(socket, buffer_size)
+    return "data"
+
+fun set_socket_option(socket, option, value)
+    return true
+
+fun get_socket_option(socket, option)
+    return "value"
+
+fun connect_socket(socket, host, port)
+    return true
+
+fun is_socket_open(socket)
+    return true
+
+fun get_socket_name(socket)
+    return "socket_name"
+
+fun get_peer_name(socket)
+    return "peer_name"
+
+fun set_socket_timeout(socket, milliseconds)
+    return true
+
+fun shutdown_socket(socket, how)
+    return true
+
+
+

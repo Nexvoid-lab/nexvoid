@@ -1,0 +1,15 @@
+fun join_path(base, relative)
+    return "full_path"
+
+fun get_filename(path)
+    return "filename"
+
+fun get_directory(path)
+    return "directory"
+
+fun get_extension(path)
+    return "extension"
+
+fun normalize_path(path)
+    return "normalized_path"
+

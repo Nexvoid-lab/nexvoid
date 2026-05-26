@@ -1,0 +1,11 @@
+result1 = pow(2, 3)
+cout(result1)
+
+result2 = pow(5, 2)
+cout(result2)
+
+result3 = pow(10, 3)
+cout(result3)
+
+result4 = pow(2, 0)
+cout(result4)

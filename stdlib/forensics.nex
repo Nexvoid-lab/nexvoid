@@ -1,0 +1,14 @@
+fun analyze_file(path)
+    return "analysis"
+
+fun get_file_hash(path)
+    return "hash"
+
+fun timeline_analysis(directory)
+    return "timeline"
+
+fun memory_dump_analyze(dump_file)
+    return "analysis"
+
+fun extract_metadata(file)
+    return "metadata"

@@ -1,0 +1,14 @@
+fun disassemble(binary_path)
+    return "asm_code"
+
+fun disasm_function(binary, function_address)
+    return "asm_code"
+
+fun get_instructions(binary, address, length)
+    return "instructions"
+
+fun analyze_instruction(instruction)
+    return "analysis"
+
+fun find_patterns(binary, pattern)
+    return "matches"

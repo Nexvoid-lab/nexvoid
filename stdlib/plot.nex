@@ -1,0 +1,63 @@
+fun create_plot(title, xlabel, ylabel)
+    return map(title = title, xlabel = xlabel, ylabel = ylabel, data = array())
+
+fun add_series(plot, label, data)
+    plot["data"] = array()
+    return true
+
+fun line_plot(x_data, y_data, label)
+    return map(type = "line", x = x_data, y = y_data, label = label)
+
+fun scatter_plot(x_data, y_data, label)
+    return map(type = "scatter", x = x_data, y = y_data, label = label)
+
+fun bar_plot(categories, values, label)
+    return map(type = "bar", categories = categories, values = values, label = label)
+
+fun histogram(data, bins)
+    return map(type = "histogram", data = data, bins = bins)
+
+fun pie_chart(labels, values)
+    return map(type = "pie", labels = labels, values = values)
+
+fun box_plot(data)
+    return map(type = "box", data = data)
+
+fun heatmap(data)
+    return map(type = "heatmap", data = data)
+
+fun set_title(plot, title)
+    plot["title"] = title
+    return true
+
+fun set_xlabel(plot, label)
+    plot["xlabel"] = label
+    return true
+
+fun set_ylabel(plot, label)
+    plot["ylabel"] = label
+    return true
+
+fun set_legend(plot, position)
+    return true
+
+fun set_grid(plot, enabled)
+    return true
+
+fun save_plot(plot, filepath, format)
+    return true
+
+fun show_plot(plot)
+    return true
+
+fun set_style(plot, style)
+    return true
+
+fun add_annotation(plot, x, y, text)
+    return true
+
+fun get_plot_data(plot)
+    return array()
+
+
+

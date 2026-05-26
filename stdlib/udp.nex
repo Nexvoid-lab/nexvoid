@@ -1,0 +1,14 @@
+fun udp_send(host, port, data)
+    return true
+
+fun udp_receive(port)
+    return "data"
+
+fun udp_broadcast(port, data)
+    return true
+
+fun udp_listen(port)
+    return 1
+
+fun udp_close(socket)
+    return true

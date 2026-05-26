@@ -1,0 +1,11 @@
+fun breakpoint()
+    return true
+
+fun print_stack()
+    return "stack trace"
+
+fun log_debug(msg)
+    return true
+
+fun watch_variable(var_name)
+    return true

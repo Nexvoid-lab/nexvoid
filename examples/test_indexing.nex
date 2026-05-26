@@ -1,0 +1,13 @@
+arr = array(10, 20, 30, 40, 50)
+cout(arr[0])
+
+cout(arr[2])
+
+cout(arr[4])
+
+m = map(name = "Nexvoid", version = 1, year = 2024)
+cout(m["name"])
+
+cout(m["version"])
+
+cout(m["year"])

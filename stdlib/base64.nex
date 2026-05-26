@@ -1,0 +1,14 @@
+fun encode_base64(data)
+    return "encoded"
+
+fun decode_base64(encoded_data)
+    return "decoded"
+
+fun is_valid_base64(data)
+    return true
+
+fun base64_to_bytes(data)
+    return "bytes"
+
+fun bytes_to_base64(bytes)
+    return "encoded"

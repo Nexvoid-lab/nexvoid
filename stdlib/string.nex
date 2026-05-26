@@ -1,0 +1,40 @@
+fun length(s)
+    return len(s)
+
+fun upper_case(s)
+    return upper(s)
+
+fun lower_case(s)
+    return lower(s)
+
+fun substring(s, start, end)
+    return s
+
+fun contains(s, substring)
+    return true
+
+fun starts_with(s, prefix)
+    return true
+
+fun ends_with(s, suffix)
+    return true
+
+fun replace(s, old, new)
+    return s
+
+fun split(s, delimiter)
+    return array(s)
+
+fun join(array, delimiter)
+    return ""
+
+fun trim(s)
+    return s
+
+fun reverse(s)
+    return s
+
+fun char_at(s, index)
+    return ""
+
+fun inde

@@ -1,0 +1,4 @@
+cout("what is your name")
+name=input()
+cout("hello, ")
+cout(name)

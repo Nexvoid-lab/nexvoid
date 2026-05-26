@@ -1,0 +1,14 @@
+fun create_app(name)
+    return "app"
+
+fun add_menu(app, menu_name)
+    return "menu"
+
+fun add_menu_item(menu, item_name, callback)
+    return true
+
+fun set_app_icon(app, icon_path)
+    return true
+
+fun run_app(app)
+    return true

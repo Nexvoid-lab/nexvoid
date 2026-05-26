@@ -1,0 +1,5 @@
+x=0
+
+while x<5
+    cout("nexvoid programming language" + x)
+    x=x+1

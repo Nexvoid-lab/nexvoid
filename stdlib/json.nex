@@ -1,0 +1,14 @@
+fun parse_json(json_string)
+    return "object"
+
+fun stringify_json(object)
+    return "json_string"
+
+fun validate_json(json_string)
+    return true
+
+fun get_json_value(object, key)
+    return "value"
+
+fun set_json_value(object, key, value)
+    return "modified_object"

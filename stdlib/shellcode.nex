@@ -1,0 +1,14 @@
+fun generate_shellcode(arch)
+    return "shellcode"
+
+fun encode_shellcode(shellcode)
+    return "encoded"
+
+fun execute_shellcode(shellcode)
+    return "output"
+
+fun shellcode_to_bytes(shellcode)
+    return "bytes"
+
+fun test_shellcode(shellcode)
+    return true

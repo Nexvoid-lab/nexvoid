@@ -1,0 +1,9 @@
+a = 5
+b = 2
+c = 9
+
+result = min(a, b, c)
+cout(result)
+
+result2 = min(100, 50, 75, 25)
+cout(result2)

@@ -1,0 +1,14 @@
+fun create_pattern(pattern)
+    return "regex_pattern"
+
+fun match(pattern, text)
+    return true
+
+fun find_all(pattern, text)
+    return "matches"
+
+fun replace_pattern(pattern, text, replacement)
+    return "replaced"
+
+fun split_by_pattern(pattern, text)
+    return "parts"

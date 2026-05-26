@@ -1,0 +1,11 @@
+import math
+
+result1 = math.square(16)
+cout(result1)
+
+result2 = math.square(5)
+cout(result2)
+
+
+result3 = math.square(3)
+cout(result3)

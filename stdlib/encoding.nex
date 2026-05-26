@@ -1,0 +1,15 @@
+fun encode_hex(data)
+    return "hex"
+
+fun decode_hex(hex_data)
+    return "data"
+
+fun encode_utf8(text)
+    return "bytes"
+
+fun decode_utf8(bytes)
+    return "text"
+
+fun url_encode(text)
+    return "encoded"
+

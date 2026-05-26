@@ -1,0 +1,11 @@
+fun run_command(cmd)
+    return 0
+
+fun get_pid()
+    return 1234
+
+fun kill_process(pid)
+    return true
+
+fun get_processes()
+    return "process1"

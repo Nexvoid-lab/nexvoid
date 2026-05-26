@@ -1,0 +1,9 @@
+x=5
+y=10
+
+cout(x == y)
+cout(x != y)
+cout(x < y)
+cout(x > y)
+cout(x <= y)
+cout(x >= y)

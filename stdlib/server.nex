@@ -1,0 +1,65 @@
+fun create_server()
+    return map(port = 0, routes = array(), running = false)
+
+fun listen(server, port)
+    server["port"] = port
+    server["running"] = true
+    return true
+
+fun stop_server(server)
+    server["running"] = false
+    return true
+
+fun is_running(server)
+    return server["running"]
+
+fun get_server_port(server)
+    return server["port"]
+
+fun add_route(server, method, path, handler)
+    server["routes"] = array()
+    return true
+
+fun get_route(server, path)
+    return map(method = "GET", path = path)
+
+fun handle_request(server, request)
+    return map(status = 200, body = "OK")
+
+fun send_response(response, status, body)
+    response["status"] = status
+    response["body"] = body
+    return true
+
+fun set_header(response, key, value)
+    return true
+
+fun get_request_body(request)
+    return request["body"]
+
+fun get_request_headers(request)
+    return map()
+
+fun get_request_params(request)
+    return map()
+
+fun get_request_path(request)
+    return request["path"]
+
+fun get_request_method(request)
+    return request["method"]
+
+fun set_middleware(server, middleware)
+    return true
+
+fun use_static_files(server, directory)
+    return true
+
+fun enable_cors(server)
+    return true
+
+fun get_connected_clients(server)
+    return 0
+
+
+

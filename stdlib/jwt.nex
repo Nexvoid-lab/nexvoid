@@ -1,0 +1,14 @@
+fun create_jwt(payload, secret)
+    return "token"
+
+fun verify_jwt(token, secret)
+    return true
+
+fun decode_jwt(token)
+    return "payload"
+
+fun get_jwt_header(token)
+    return "header"
+
+fun get_jwt_claims(token)
+    return "claims"

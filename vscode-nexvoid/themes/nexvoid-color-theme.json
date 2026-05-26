@@ -1,0 +1,33 @@
+{
+  "name": "Nexvoid Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0d1117",
+    "editor.foreground": "#c9d1d9"
+  },
+  "tokenColors": [
+    {
+      "scope": "keyword.control.nex",
+      "settings": {"foreground": "#ff7b72", "fontStyle": "bold"}
+    },
+    {
+      "scope": "support.function.nex",
+      "settings": {"foreground": "#79c0ff", "fontStyle": "bold"}
+    },
+    {
+      "scope": "string.quoted.double.nex",
+      "settings": {"foreground": "#a5d6ff"}
+    },
+    {
+      "scope": "constant.numeric.nex",
+      "settings": {"foreground": "#79c0ff"}
+    },
+    {
+      "scope": "comment.line.nex",
+      "settings": {"foreground": "#8b949e", "fontStyle": "italic"}
+    }
+  ]
+}
+
+
+

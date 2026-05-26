@@ -1,0 +1,55 @@
+fun create_bot(name, platform)
+    return map(name = name, platform = platform, running = false, commands = array())
+
+fun connect_bot(bot, token)
+    return map(connected = true, token = token)
+
+fun disconnect_bot(bot)
+    bot["running"] = false
+    return true
+
+fun add_command(bot, command, handler)
+    bot["commands"] = array()
+    return true
+
+fun handle_message(bot, message)
+    return "bot_response"
+
+fun send_message(bot, channel, message)
+    return true
+
+fun send_direct_message(bot, user, message)
+    return true
+
+fun get_user_info(bot, user_id)
+    return map(username = "user", id = user_id)
+
+fun get_channel_info(bot, channel_id)
+    return map(name = "channel", id = channel_id)
+
+fun react_to_message(bot, message_id, emoji)
+    return true
+
+fun delete_message(bot, message_id)
+    return true
+
+fun edit_message(bot, message_id, new_content)
+    return true
+
+fun create_embed(title, description, color)
+    return map(title = title, description = description, color = color)
+
+fun set_bot_status(bot, status)
+    return true
+
+fun get_bot_info(bot)
+    return map(name = bot["name"], platform = bot["platform"])
+
+fun log_bot_activity(bot, activity)
+    return true
+
+fun schedule_message(bot, channel, message, delay)
+    return true
+
+
+

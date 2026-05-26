@@ -1,0 +1,19 @@
+cout("****TESTING POWER(**)****")
+result1 = 2**3
+cout("first result = " +result1)
+
+result2 = 5 ** 2
+cout("second result = " +result2)
+
+result3 = 10 ** 0
+cout("third result = " +result3)
+
+result4 = 2**3**2
+cout("fourth result = " + result4)
+
+
+result = 2 ** 3
+cout("fifth result = " +result)
+
+result2 = 2 ** 3 ** 2
+cout("sith result = " +result2)

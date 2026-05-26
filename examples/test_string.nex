@@ -1,0 +1,12 @@
+import string
+
+text = "hello nexvoid user"
+
+result1= string.upper_case(text)
+cout(result1)
+
+result2 = string.lower_case(text)
+cout(result2)
+
+result3 = string.length(text)
+cout(result3)

@@ -1,0 +1,14 @@
+fun ws_connect(url)
+    return 1
+
+fun ws_send(connection, message)
+    return true
+
+fun ws_receive(connection)
+    return "message"
+
+fun ws_close(connection)
+    return true
+
+fun ws_listen(port)
+    return 1

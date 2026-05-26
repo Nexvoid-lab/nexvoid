@@ -1,0 +1,47 @@
+fun create_packet(data)
+    return map(payload = data, size = len(data))
+
+fun parse_packet(data)
+    return map(header = "", payload = "", footer = "")
+
+fun get_packet_header(packet)
+    return packet["header"]
+
+fun get_packet_payload(packet)
+    return packet["payload"]
+
+fun get_packet_footer(packet)
+    return packet["footer"]
+
+fun send_packet(connection, packet)
+    return true
+
+fun receive_packet(connection)
+    return map(payload = "data")
+
+fun construct_ip_packet(src_ip, dst_ip, payload)
+    return map(src = src_ip, dst = dst_ip, data = payload)
+
+fun construct_tcp_packet(src_port, dst_port, payload)
+    return map(src_port = src_port, dst_port = dst_port, data = payload)
+
+fun construct_udp_packet(src_port, dst_port, payload)
+    return map(src_port = src_port, dst_port = dst_port, data = payload)
+
+fun construct_icmp_packet(type, code, data)
+    return map(type = type, code = code, data = data)
+
+fun get_packet_size(packet)
+    return 0
+
+fun set_packet_ttl(packet, ttl)
+    return packet
+
+fun get_packet_ttl(packet)
+    return 64
+
+fun calculate_checksum(packet)
+    return "checksum"
+
+fun verify_checksum(packet)
+    return true

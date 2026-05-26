@@ -1,0 +1,10 @@
+a = 10
+b = 3
+result1 = a % b
+print(result1)
+result2 = 17 % 5
+cout(result2)
+result3 = 20 % 4
+cout(result3)
+result4 = 7 % 2
+cout(result4)

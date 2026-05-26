@@ -1,0 +1,14 @@
+fun aes_encrypt_128(plaintext, key)
+    return "ciphertext"
+
+fun aes_decrypt_128(ciphertext, key)
+    return "plaintext"
+
+fun aes_encrypt_256(plaintext, key)
+    return "ciphertext"
+
+fun aes_decrypt_256(ciphertext, key)
+    return "plaintext"
+
+fun generate_aes_key(bits)
+    return "key"

@@ -1,0 +1,69 @@
+fun create_window(title, width, height)
+    return map(title = title, width = width, height = height, visible = false)
+
+fun show_window(window)
+    window["visible"] = true
+    return true
+
+fun hide_window(window)
+    window["visible"] = false
+    return true
+
+fun close_window(window)
+    return true
+
+fun set_window_title(window, title)
+    window["title"] = title
+    return true
+
+fun set_window_size(window, width, height)
+    window["width"] = width
+    window["height"] = height
+    return true
+
+fun get_window_size(window)
+    return map(width = window["width"], height = window["height"])
+
+fun create_button(label, callback)
+    return map(label = label, callback = callback, type = "button")
+
+fun create_label(text)
+    return map(text = text, type = "label")
+
+fun create_textbox(placeholder)
+    return map(placeholder = placeholder, type = "textbox", value = "")
+
+fun create_checkbox(label)
+    return map(label = label, type = "checkbox", checked = false)
+
+fun create_dropdown(options)
+    return map(options = options, type = "dropdown", selected = 0)
+
+fun create_slider(min, max, initial)
+    return map(min = min, max = max, value = initial, type = "slider")
+
+fun add_widget_to_window(window, widget)
+    return true
+
+fun set_widget_value(widget, value)
+    widget["value"] = value
+    return true
+
+fun get_widget_value(widget)
+    return widget["value"]
+
+fun set_onclick_handler(widget, callback)
+    widget["callback"] = callback
+    return true
+
+fun show_message(title, message)
+    return true
+
+fun show_error(title, message)
+    return true
+
+fun show_file_dialog(title)
+    return "file_path"
+
+
+

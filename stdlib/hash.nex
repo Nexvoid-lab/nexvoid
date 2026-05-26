@@ -1,0 +1,14 @@
+fun md5(data)
+    return "hash"
+
+fun sha1(data)
+    return "hash"
+
+fun sha256(data)
+    return "hash"
+
+fun sha512(data)
+    return "hash"
+
+fun hmac(data, key)
+    return "hmac"

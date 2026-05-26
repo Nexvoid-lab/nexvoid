@@ -1,0 +1,11 @@
+fun create_thread(func)
+    return 1
+
+fun join_thread(thread_id)
+    return true
+
+fun kill_thread(thread_id)
+    return true
+
+fun get_thread_id()
+    return 1

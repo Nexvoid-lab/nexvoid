@@ -1,0 +1,11 @@
+name = "Alice"
+age = 25
+city = "NYC"
+
+cout("Hello {name}!")
+cout("You are {age} years old in {city}")
+
+x=7
+y=3
+cout("Sum: {x+y}cows")
+

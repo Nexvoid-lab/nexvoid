@@ -1,0 +1,14 @@
+fun tcp_connect(host, port)
+    return 1
+
+fun tcp_send(connection, data)
+    return true
+
+fun tcp_receive(connection)
+    return "data"
+
+fun tcp_close(connection)
+    return true
+
+fun tcp_listen(port)
+    return 1

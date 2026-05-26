@@ -1,0 +1,8 @@
+x=5
+if x>0
+    pass
+cout("after if")
+
+while x>10
+    pass
+cout("after while")

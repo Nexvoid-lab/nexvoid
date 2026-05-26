@@ -1,0 +1,14 @@
+fun load_binary(path)
+    return "binary"
+
+fun parse_binary(binary_path)
+    return "parsed"
+
+fun get_sections(binary)
+    return "sections"
+
+fun read_section(binary, section_name)
+    return "data"
+
+fun get_entry_point(binary)
+    return 4096

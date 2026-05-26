@@ -1,0 +1,63 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+
+    "name": "Nexvoid",
+
+    "scopeName": "source.nexvoid",
+
+    "patterns": [{
+            "include": "#keywords"
+        },
+        {
+            "include": "#strings"
+        },
+        {
+            "include": "#numbers"
+        },
+        {
+            "include": "#comments"
+        },
+        {
+            "include": "#decorators"
+        }
+    ],
+
+    "repository": {
+
+        "keywords": {
+            "patterns": [{
+                "match": "\\b(class|fun|task|if|else|while|repeat|return|protocol|implements|public|private|true|false|wait|pass|import|from|as)\\b",
+                "name": "keyword.control"
+            }]
+        },
+
+        "strings": {
+            "patterns": [{
+                "begin": "\"",
+                "end": "\"",
+                "name": "string.quoted.double.nexvoid"
+            }]
+        },
+
+        "numbers": {
+            "patterns": [{
+                "match": "\\b\\d+(\\.\\d+)?\\b",
+                "name": "constant.numeric.nexvoid"
+            }]
+        },
+
+        "comments": {
+            "patterns": [{
+                "match": "#.*$",
+                "name": "comment.line.number-sign.nexvoid"
+            }]
+        },
+
+        "decorators": {
+            "patterns": [{
+                "match": "@[A-Za-z_][A-Za-z0-9_]*",
+                "name": "entity.name.tag.nexvoid"
+            }]
+        }
+    }
+}

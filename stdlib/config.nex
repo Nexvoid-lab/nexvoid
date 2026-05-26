@@ -1,0 +1,12 @@
+fun load_config(file)
+    return "config"
+
+fun get_config(key)
+    return "value"
+
+fun set_config(key, value)
+    return true
+
+fun save_config(file)
+    return true
+

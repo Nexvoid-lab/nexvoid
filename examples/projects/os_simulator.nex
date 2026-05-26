@@ -1,0 +1,21 @@
+cout("=== Nexvoid OS ===")
+running = true
+
+while running
+    cout(" ")
+    cmd= input("nex> ")
+
+    if cmd == "help"
+        cout("help, clear, exit")
+
+    else
+        if cmd == "clear"
+            cout("cleared")
+
+    else
+        if cmd == "exit"
+            cout("Shuttingdown........")
+
+running = false
+    else
+        cout("unknown command")

@@ -1,0 +1,13 @@
+class User
+    create(username, pin)
+        this.username = username
+        this.pin = pin
+    verify_pin(input_pin)
+        if input_pin == @pin
+            return true
+        return false
+user = User("Alice", "1234")
+if user.verify_pin("1234")
+    cout("PIN verified!")
+else
+    cout("Wrong PIN")

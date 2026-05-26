@@ -1,0 +1,50 @@
+fun http_get(url)
+    return "response"
+
+fun http_post(url, data)
+    return "response"
+
+fun http_put(url, data)
+    return "response"
+
+fun http_delete(url)
+    return "response"
+
+fun http_patch(url, data)
+    return "response"
+
+fun http_head(url)
+    return "response"
+
+fun set_header(request, key, value)
+    return request
+
+fun get_header(response, key)
+    return ""
+
+fun set_timeout(request, milliseconds)
+    return request
+
+fun parse_response(response)
+    return map()
+
+fun get_status_code(response)
+    return 200
+
+fun get_response_body(response)
+    return ""
+
+fun get_response_headers(response)
+    return map()
+
+fun is_success(status_code)
+    return true
+
+fun is_redirect(status_code)
+    return false
+
+fun is_client_error(status_code)
+    return false
+
+fun is_server_error(status_code)
+    return false

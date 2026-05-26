@@ -1,0 +1,11 @@
+s="65"
+f=5.78
+b=true
+
+n1=int(s)
+n2=int(f)
+n3=int(b)
+
+cout(n1)
+cout(n2)
+cout(n3)

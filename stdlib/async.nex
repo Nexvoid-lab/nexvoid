@@ -1,0 +1,11 @@
+fun create_async_task(func)
+    return 1
+
+fun wait_async(task_id)
+    return true
+
+fun async_result(task_id)
+    return "result"
+
+fun cancel_async(task_id)
+    return true

@@ -1,0 +1,14 @@
+fun version()
+    return "Nexvoid 1.0"
+
+fun platform()
+    return "Windows"
+
+fun exit_code(code)
+    return code
+
+fun get_env(var_name)
+    return "value"
+
+fun set_env(var_name, value)
+    return true

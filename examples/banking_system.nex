@@ -1,0 +1,51 @@
+protocol Account
+    fun deposit(amount)
+    fun withdraw(amount)
+    fun balance()
+
+class BankAccount
+    implements Account
+    create(owner, initial_balance)
+        this.owner = owner
+        this.balance_amt = initial_balance
+    
+    deposit(amount)
+        this.balance_amt = this.balance_amt + amount
+        cout("{this.owner} deposited {amount}")
+    
+    withdraw(amount)
+        if amount > this.balance_amt
+            cout("Insufficient funds")
+        else
+            this.balance_amt = this.balance_amt - amount
+            cout("{this.owner} withdrew {amount}")
+    
+    balance()
+        return this.balance_amt
+
+account = BankAccount("Alice", 1000)
+account.deposit(500)
+account.withdraw(200)
+cout("Balance: {account.balance()}")
+class User
+    create(name, pin)
+        name = name
+        pin = pin
+
+    verify(input)
+        if input == @pin
+            return true
+        return false
+
+user = User("Nexvoid", "1234")
+
+if user.verify("1234")
+    cout("Access granted")
+else
+    cout("Denied")
+
+
+
+
+
+

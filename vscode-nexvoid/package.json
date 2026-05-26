@@ -1,0 +1,35 @@
+{
+    "name": "nexvoid",
+    "displayName": "Nexvoid",
+    "description": "Syntax highlighting for Nexvoid (.nex files)",
+    "version": "1.0.0",
+    "publisher": "nexvoid-lab",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "icon": "icons/vv.png",
+    "categories": ["Programming Languages"],
+    "contributes": {
+        "languages": [{
+            "id": "nexvoid",
+            "aliases": ["Nexvoid"],
+            "extensions": [".nex"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "nexvoid",
+            "scopeName": "source.nex",
+            "path": "./syntaxes/nexvoid.tmLanguage.json"
+        }],
+        "themes": [{
+            "label": "Nexvoid Dark",
+            "uiTheme": "vs-dark",
+            "path": "./themes/nexvoid-color-theme.json"
+        }],
+        "iconThemes": [{
+            "id": "nexvoid-icons",
+            "label": "Nexvoid Icons",
+            "path": "./icons/icons-theme.json"
+        }]
+    }
+}

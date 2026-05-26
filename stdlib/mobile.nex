@@ -1,0 +1,14 @@
+fun create_mobile_app(name, platform)
+    return "mobile_app"
+
+fun create_screen(app, screen_name)
+    return "screen"
+
+fun navigate_to_screen(app, screen_name)
+    return true
+
+fun get_device_info()
+    return "device_info"
+
+fun request_permission(permission)
+    return true

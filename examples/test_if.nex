@@ -1,0 +1,13 @@
+x=20
+if x<15
+    cout("bomboclat 20 is less than 15")
+else
+    cout("20 is greater than 15 bomblat")
+
+
+y=100
+
+if y>10
+    cout("bomboclat Y is less than 100") 
+else
+    cout("Y is greater than 100 bomboclat")

@@ -1,0 +1,47 @@
+fun connect(host, port)
+    return 1
+
+fun listen(port)
+    return 1
+
+fun send_data(connection, data)
+    return true
+
+fun receive_data(connection)
+    return "data"
+
+fun close_connection(connection)
+    return true
+
+fun is_connected(connection)
+    return true
+
+fun get_remote_address(connection)
+    return "192.168.1.1"
+
+fun get_remote_port(connection)
+    return 8080
+
+fun get_local_address(connection)
+    return "127.0.0.1"
+
+fun get_local_port(connection)
+    return 5000
+
+fun send_bytes(connection, bytes)
+    return true
+
+fun receive_bytes(connection, length)
+    return "bytes"
+
+fun set_non_blocking(connection)
+    return true
+
+fun set_blocking(connection)
+    return true
+
+fun get_connection_status(connection)
+    return "connected"
+
+fun ping_host(host)
+    return true

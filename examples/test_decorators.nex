@@ -1,0 +1,9 @@
+@secure(encrypt=pin)
+class SecureUser
+    create(username, pin)
+        this.username = username
+        this.pin = pin
+
+user = SecureUser("Alice", "secret123")
+cout("User created: Alice")
+cout(user)

@@ -1,0 +1,14 @@
+fun create_label(text)
+    return "label"
+
+fun create_checkbox(label)
+    return "checkbox"
+
+fun create_dropdown(options)
+    return "dropdown"
+
+fun create_slider(min, max, initial)
+    return "slider"
+
+fun create_image_view(image_path)
+    return "image_view"

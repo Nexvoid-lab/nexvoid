@@ -1,0 +1,14 @@
+fun attach_debugger(process_id)
+    return true
+
+fun set_breakpoint(address)
+    return true
+
+fun continue_execution()
+    return true
+
+fun read_memory(address, size)
+    return "memory_content"
+
+fun write_memory(address, data)
+    return true

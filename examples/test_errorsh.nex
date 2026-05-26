@@ -1,0 +1,4 @@
+name ="nexvoid"
+age = 20
+
+cout("hello {name}! you are {age} yeays older")

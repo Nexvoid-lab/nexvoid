@@ -1,0 +1,18 @@
+@secure(encrypt=pin)
+class SecureUser
+    create(username, pin)
+        this.username = username
+        this.pin = pin
+
+@validate(min_length=8)
+fun create_password(password)
+    return password
+
+user = SecureUser("Alice", "secret123")
+cout("User created: Alice")
+
+pwd = create_password("mypassword123")
+cout("Password validated: {pwd}")
+
+
+

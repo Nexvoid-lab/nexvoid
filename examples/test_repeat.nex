@@ -1,0 +1,7 @@
+repeat 5 as i
+    cout("nexvoud language")
+
+#more
+
+repeat 10 as i
+    cout(i)

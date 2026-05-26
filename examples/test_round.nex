@@ -1,0 +1,11 @@
+result1 = round(3.14159)
+cout(result1)
+
+result2 = round(3.14159, 2)
+cout(result2)
+
+result3 = round(2.5)
+cout(result3)
+
+result4 = round(9.876, 1)
+cout(result4)

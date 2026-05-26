@@ -1,0 +1,12 @@
+x=42
+y=9.77
+z=true
+
+s1= str(x)
+s2=str(y)
+s3=str(z)
+
+cout(s1)
+cout(s2)
+cout(s3)
+

@@ -1,0 +1,14 @@
+fun create_sandbox()
+    return 1
+
+fun run_in_sandbox(sandbox_id, command)
+    return "output"
+
+fun monitor_sandbox(sandbox_id)
+    return "activity"
+
+fun get_sandbox_logs(sandbox_id)
+    return "logs"
+
+fun destroy_sandbox(sandbox_id)
+    return true

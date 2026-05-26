@@ -1,0 +1,8 @@
+fun print_line(text)
+    cout(text)
+
+fun read_input(prompt)
+    cout(prompt)
+
+fun greet(name)
+    cout("hello " + name + "!")

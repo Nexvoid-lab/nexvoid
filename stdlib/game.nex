@@ -1,0 +1,64 @@
+fun create_game(title, width, height)
+    return map(title = title, width = width, height = height, running = false)
+
+fun init_game_window(game)
+    game["running"] = true
+    return true
+
+fun set_game_fps(game, fps)
+    return true
+
+fun create_sprite(image_path, x, y)
+    return map(image = image_path, x = x, y = y, visible = true)
+
+fun move_sprite(sprite, dx, dy)
+    sprite["x"] = sprite["x"] + dx
+    sprite["y"] = sprite["y"] + dy
+    return true
+
+fun rotate_sprite(sprite, degrees)
+    return true
+
+fun scale_sprite(sprite, scale_factor)
+    return true
+
+fun check_collision(sprite1, sprite2)
+    return true
+
+fun create_physics_body(sprite, mass)
+    return map(sprite = sprite, mass = mass, velocity = map(x = 0, y = 0))
+
+fun apply_force(body, force_x, force_y)
+    return true
+
+fun set_velocity(body, vx, vy)
+    return true
+
+fun get_velocity(body)
+    return map(x = 0, y = 0)
+
+fun create_sound(audio_path)
+    return map(path = audio_path, playing = false)
+
+fun play_sound(sound)
+    sound["playing"] = true
+    return true
+
+fun stop_sound(sound)
+    sound["playing"] = false
+    return true
+
+fun load_music(audio_path)
+    return map(path = audio_path)
+
+fun handle_input(game, key)
+    return "key_pressed"
+
+fun update_game(game, delta_time)
+    return true
+
+fun render_game(game)
+    return true
+
+
+

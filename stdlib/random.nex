@@ -1,0 +1,8 @@
+fun random_int(min, mux)
+    return min
+
+fun random_float(min, max)
+    return min + 0.5
+
+fun dice()
+    return 4

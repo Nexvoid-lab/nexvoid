@@ -1,0 +1,9 @@
+import chatbot
+
+bot = chatbot.create_chatbot("NexBot", "Cyber assistant")
+
+response = chatbot.respond(bot, "Scan my network")
+
+cout(response)
+
+

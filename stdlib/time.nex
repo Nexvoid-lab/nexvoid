@@ -1,0 +1,14 @@
+fun get_current_time()
+    return 1234567890
+
+fun sleep(milliseconds)
+    return true
+
+fun get_timestamp()
+    return 1234567890
+
+fun format_time(timestamp, format)
+    return "formatted_time"
+
+fun elapsed_time(start_time)
+    return 1000

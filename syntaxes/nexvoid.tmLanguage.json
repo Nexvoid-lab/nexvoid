@@ -1,0 +1,41 @@
+{
+    "scopeName": "source.nexvoid",
+    "name": "Nexvoid",
+    "patterns": [
+        { "include": "#comments" },
+        { "include": "#keywords" },
+        { "include": "#strings" },
+        { "include": "#numbers" }
+    ],
+    "repository": {
+        "comments": {
+            "patterns": [{
+                "name": "comment.line.nexvoid",
+                "match": "#.*$"
+            }]
+        },
+
+        "keywords": {
+            "patterns": [{
+                    "name": "keyword.control.nexvoid",
+                    "match": "\\b(fun|if|else|while|repeat|task|return|wait)\\b"
+                },
+                {
+                    "name": "support.function.builtin.nexvoid",
+                    "match": "\\bcout\\b"
+                }
+            ]
+        },
+
+        "strings": {
+            "name": "string.quoted.double.nexvoid",
+            "begin": "\"",
+            "end": "\""
+        },
+
+        "numbers": {
+            "name": "constant.numeric.nexvoid",
+            "match": "\\b\\d+\\b"
+        }
+    }
+}

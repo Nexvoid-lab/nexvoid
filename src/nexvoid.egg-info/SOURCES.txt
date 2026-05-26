@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/nexvoid.egg-info/PKG-INFO
+src/nexvoid.egg-info/SOURCES.txt
+src/nexvoid.egg-info/dependency_links.txt
+src/nexvoid.egg-info/entry_points.txt
+src/nexvoid.egg-info/top_level.txt
+tests/test_lexer.py
+tests/test_parser.py

@@ -1,0 +1,22 @@
+
+yasama("operation")
+a=3+45/5*2
+b=(5+5)*2%4
+cout(a)
+cout(b)
+
+#interactive calculator version 1(rcv input)
+cout("=====enter first number=====")
+a=int(input())
+yasama("enter second number")
+b=int(grab())
+
+sum=a*b
+cout("TOTAL= " + sum)
+
+#interactive calculator version 2 (rcv input)
+a=input("what is your name?: ")
+b=int(listen("How old are you?: "))
+
+cout("NAME: " + a)
+cout("AGE: " + b)

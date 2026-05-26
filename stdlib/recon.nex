@@ -1,0 +1,14 @@
+fun enum_subdomains(domain)
+    return "subdomains"
+
+fun find_endpoints(domain)
+    return "endpoints"
+
+fun crawl_website(url)
+    return "pages"
+
+fun extract_links(url)
+    return "links"
+
+fun identify_technologies(target)
+    return "tech_stack"

@@ -1,0 +1,2 @@
+[console_scripts]
+nexvoid = bin.nexvoid:main

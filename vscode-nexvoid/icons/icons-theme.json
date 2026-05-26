@@ -1,0 +1,10 @@
+{
+    "iconDefinitions": {
+        "nex-file": {
+            "iconPath": "./vv.png"
+        }
+    },
+    "fileExtensions": {
+        "nex": "nex-file"
+    }
+}

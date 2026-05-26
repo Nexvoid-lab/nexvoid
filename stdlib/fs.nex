@@ -1,0 +1,47 @@
+fun file_exists(path)
+    return true
+
+fun read_file(path)
+    return "file content"
+
+fun write_file(path, content)
+    return true
+
+fun append_file(path, content)
+    return true
+
+fun delete_file(path)
+    return true
+
+fun list_files(path)
+    return array("file1.txt", "file2.txt")
+
+fun get_file_size(path)
+    return 0
+
+fun get_file_extension(path)
+    return ".txt"
+
+fun directory_exists(path)
+    return true
+
+fun create_directory(path)
+    return true
+
+fun delete_directory(path)
+    return true
+
+fun list_directories(path)
+    return array("dir1", "dir2")
+
+fun copy_file(source, destination)
+    return true
+
+fun move_file(source, destination)
+    return true
+
+fun get_absolute_path(path)
+    return path
+
+fun get_current_directory()
+    return "/"

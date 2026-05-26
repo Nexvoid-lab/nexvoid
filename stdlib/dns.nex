@@ -1,0 +1,11 @@
+fun resolve_hostname(hostname)
+    return "192.168.1.1"
+
+fun reverse_dns(ip)
+    return "hostname"
+
+fun get_dns_records(domain)
+    return "records"
+
+fun dns_query(domain, type)
+    return "result"

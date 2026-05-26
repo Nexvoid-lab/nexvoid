@@ -1,0 +1,7 @@
+arr = array(1, 2, 3, 4, 5, 6)
+cout(arr)
+
+m = map(name="Nexvoid", version=11, year=2026)
+cout(m)
+
+cout(len(arr))

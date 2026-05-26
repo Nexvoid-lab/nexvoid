@@ -1,0 +1,29 @@
+fun add(a,b)
+    return a+b 
+result=add(5,3)
+cout(result)
+
+#another function.
+
+fun greet(name)
+    cout("hello, ")
+    cout(name)
+greet("nexvoid " + 404)
+
+#ANOTHER function
+
+fun add(a,b)
+    return a+b 
+cout(add(10,4))
+
+
+#ANOTHER FUNCTION SCOPE TEST 
+
+X=100
+fun test_scope()
+x=5
+cout(test_scope())
+(local)
+cout(x)
+(global unchanged)
+

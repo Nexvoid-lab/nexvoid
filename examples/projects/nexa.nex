@@ -1,0 +1,48 @@
+from chatbot import *
+
+bot = create_chatbot("Nexa", "An intelligent Nexvoid terminal assistant")
+
+cout("===================================")
+cout(" NEXA TERMINAL v1")
+cout("===================================")
+cout("Type 'help' for commands")
+cout("Type 'exit' to quit")
+
+running = true
+
+while running
+    command = input("Nexa > ")
+
+    if command == "hello"
+        cout("Hello David!")
+    else
+        if command == "help"
+            cout("Available commands:")
+            cout("hello")
+            cout("chat")
+            cout("scan")
+            cout("matrix")
+            cout("exit")
+        else
+            if command == "chat"
+                response = respond(bot, "hello")
+                cout(response)
+            else
+                if command == "scan"
+                    cout("Scanning localhost...")
+                    cout("Ports checked: 80, 443, 8080")
+                    cout("No vulnerabilities found")
+                else
+                    if command == "matrix"
+                        cout("101010101010101")
+                        cout("010101010101010")
+                        cout("101010101010101")
+                    else
+                        if command == "exit"
+                            running = false
+                            cout("Goodbye!")
+                        else
+                            cout("Unknown command")
+
+
+

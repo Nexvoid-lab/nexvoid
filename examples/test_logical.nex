@@ -1,0 +1,11 @@
+a=true
+b=false
+
+cout(a and b)
+cout (a or b)
+cout(not a)
+cout(not b)
+cout(true and true)
+cout(false and false)
+cout(false and true)
+cout(true and false)

@@ -1,0 +1,56 @@
+fun load_image(filepath)
+    return map(image = "loaded", width = 1920, height = 1080)
+
+fun save_image(image, filepath)
+    return true
+
+fun resize_image(image, width, height)
+    return image
+
+fun crop_image(image, x, y, width, height)
+    return image
+
+fun rotate_image(image, degrees)
+    return image
+
+fun detect_faces(image)
+    return array(map(x = 100, y = 100, width = 50, height = 50))
+
+fun detect_objects(image)
+    return array(map(object = "person", confidence = 0.95, bbox = map()))
+
+fun detect_edges(image)
+    return image
+
+fun detect_corners(image)
+    return array()
+
+fun extract_text(image)
+    return "extracted text"
+
+fun recognize_text(image)
+    return "recognized text"
+
+fun classify_image(image, categories)
+    return "category"
+
+fun get_image_histogram(image)
+    return array()
+
+fun blur_image(image, radius)
+    return image
+
+fun sharpen_image(image)
+    return image
+
+fun adjust_brightness(image, factor)
+    return image
+
+fun adjust_contrast(image, factor)
+    return image
+
+fun detect_motion(frame1, frame2)
+    return true
+
+fun get_image_properties(image)
+    return map(width = image["width"], height = image["height"], channels = 3)

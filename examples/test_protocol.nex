@@ -1,0 +1,14 @@
+protocol Reader
+    fun read(): text
+    fun close()
+
+class FileReader
+    implements Reader
+    read()
+        return "file content"
+    close()
+        pass
+
+reader = FileReader()
+cout("Protocol test passed")
+

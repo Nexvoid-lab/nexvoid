@@ -1,0 +1,7 @@
+import io 
+
+io.print_line("Welcome to Nexvoid!")
+io.greet("User")
+
+message="testing I/O module"
+io.print_line(message)

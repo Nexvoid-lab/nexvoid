@@ -1,0 +1,11 @@
+fun add(a: int, b: int): int
+    return a + b
+
+fun greet(name: text): text
+    return "Hello {name}"
+
+result = add(5, 3)
+cout("Sum: {result}")
+
+greeting = greet("Alice")
+cout(greeting)

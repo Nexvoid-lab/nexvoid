@@ -1,0 +1,14 @@
+fun generate_fuzz_input(input_type)
+    return "fuzzed_data"
+
+fun fuzz_target(target, fuzz_data)
+    return "result"
+
+fun monitor_crash(target)
+    return "crash_info"
+
+fun collect_crashes()
+    return "crashes"
+
+fun analyze_crash(crash_data)
+    return "analysis"
