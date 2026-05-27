@@ -317,7 +317,7 @@ class NexvoidParser:
             # ✅ ADD THIS: Parse return type if present
             return_type = None
             if self.match(TokenType.COLON):
-                
+                self.advance()
                 type_token = self.expect(TokenType.IDENT)
                 return_type = type_token.value
 
