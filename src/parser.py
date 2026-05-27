@@ -307,33 +307,41 @@ class NexvoidParser:
         )
 
     def parse_method_def(self):
-        name_token = self.expect(TokenType.IDENT)
-        name = name_token.value
+            name_token = self.expect(TokenType.IDENT)
+            name = name_token.value
 
-        self.expect(TokenType.LPAREN)
-        params = self.parse_params()
-        self.expect(TokenType.RPAREN)
+            self.expect(TokenType.LPAREN)
+            params = self.parse_params()
+            self.expect(TokenType.RPAREN)
 
-        self.skip_newlines()
-        self.expect(TokenType.INDENT)
+            # ✅ ADD THIS: Parse return type if present
+            return_type = None
+            if self.match(TokenType.COLON):
+                self.advance()
+                type_token = self.expect(TokenType.IDENT)
+                return_type = type_token.value
 
-        body_stmts = self.parse_block()
+            self.skip_newlines()
+            self.expect(TokenType.INDENT)
 
-        body = Block(
-            body_stmts,
-            name_token.line,
-            name_token.col
-        )
+            body_stmts = self.parse_block()
 
-        self.expect(TokenType.DEDENT)
+            body = Block(
+                body_stmts,
+                name_token.line,
+                name_token.col
+            )
 
-        return FunctionDef(
-            name,
-            params,
-            body,
-            name_token.line,
-            name_token.col
-        )
+            self.expect(TokenType.DEDENT)
+
+            return FunctionDef(
+                name,
+                params,
+                body,
+                return_type,  # ✅ NOW PASS THE RETURN TYPE
+                name_token.line,
+                name_token.col
+            )
 
     def parse_decorator(self):
         decorator_token = self.expect(TokenType.AT)
